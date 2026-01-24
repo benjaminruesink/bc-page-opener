@@ -1,0 +1,12 @@
+.vscode
+.vscode-test
+src/**
+.gitignore
+tsconfig.json
+node_modules
+*.vsix
+.git
+.alpackages
+.altestrunner
+.snapshots
+test-samples

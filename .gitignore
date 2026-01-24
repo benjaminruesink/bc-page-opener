@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code Extension
+*.vsix
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.sublime-workspace
+
+# Test output
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+
+# Miscellaneous
+.altestrunner/
+.alpackages/
+.vscode-test/
+*.code-workspace

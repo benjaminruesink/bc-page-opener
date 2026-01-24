@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Sandbox - Development",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox-Development",
+            "tenant": "00000000-0000-0000-0000-000000000000",
+            "startupObjectId": 22,
+            "startupObjectType": "Page"
+        },
+        {
+            "name": "Sandbox - Production",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox-Production",
+            "tenant": "00000000-0000-0000-0000-000000000000",
+            "startupCompany": "CRONUS International Ltd."
+        }
+    ]
+}

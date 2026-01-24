@@ -1,0 +1,49 @@
+{
+  "name": "bc-page-opener",
+  "displayName": "Business Central Object Opener",
+  "description": "Open Business Central pages and tables directly from AL files in your browser",
+  "version": "1.0.0",
+  "publisher": "benjamin-ruesink",
+  "icon": "icon.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjaminruesink/bc-page-opener"
+  },
+  "keywords": [
+    "Business Central",
+    "AL",
+    "Dynamics 365",
+    "object opener",
+    "development tools"
+  ],
+  "engines": {
+    "vscode": "^1.108.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:al",
+    "workspaceContains:**/*.al"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bc-page-opener.openInBrowser",
+        "title": "BCO: Open in browser"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/vscode": "^1.108.1",
+    "@vscode/vsce": "^3.7.1",
+    "typescript": "^5.9.3"
+  }
+}
